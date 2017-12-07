@@ -1,0 +1,84 @@
+$big-phone: 481px;
+$tablet: 641px;
+$desktop: 961px;
+$site-max-width: 1280px;
+$padding-phone: 10px;
+$padding-tablet: 20px;
+$padding-desktop: 30px;
+
+$color-text: #333;
+$font-text: 'Raleway', sans-serif;
+$font-heading: 'Rokkitt', serif;
+$font-code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font-pre: "Courier New", Courier, monospace;
+
+$color-primary: #FF7F00;
+$color-primary-lighter: lighten($color-primary, 10%);
+$color-primary-darker: darken($color-primary, 10%);
+$color-secondary: complement($color-primary);
+$color-secondary-lighter: lighten($color-secondary, 10%);
+$color-secondary-darker: darken($color-secondary, 10%);
+$color-background: #fff;
+
+/*
+Theme Name: Flex-Lite
+Author: Vincent Dubroeucq
+Author URI: http://vincentdubroeucq.com
+Theme URI:  http://vincentdubroeucq.com/themes/flex 
+Description: A simple and clean responsive theme for your blog.
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: flex-lite
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, featured-images, full-width-template
+*/
+
+@import "_normalize.scss";
+
+
+
+@import "_base-styles.scss";
+
+
+
+@import "_media.scss";
+
+
+
+@import "_helpers.scss";
+
+
+
+@import "_navbar.scss";
+
+
+
+@import "_main-header.scss";
+
+
+
+@import "_social-icons.scss";
+
+
+
+@import "_layout.scss";
+
+
+
+@import "_content.scss";
+
+
+
+@import "_comments.scss";
+
+
+
+@import "_widgets.scss";
+
+
+
+@import "_footer.scss";
+
+
+
+@import "_contact-modal.scss";

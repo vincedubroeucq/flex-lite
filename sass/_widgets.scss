@@ -1,0 +1,174 @@
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+    padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.widget-title {
+    font-size: 1.563em;
+    margin-bottom: .5em;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 3px solid $color-secondary;
+	border-top: 3px solid transparent;
+}
+
+.search-form {
+  margin: 0 0 1.618em;
+  display: flex;
+}
+
+.signup-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.signup-fields input[type=email] {
+    flex-basis: 250px;
+}
+
+
+/*--------------------------------------------------------------
+## Custom Widget styles
+--------------------------------------------------------------*/
+.page-widget-title {
+    font-size: 1.25em;
+}
+
+.recent-post {
+    margin-bottom: 1.618em;
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    .thumbnail-container img {
+        margin-bottom: 1em;
+    }
+
+    .post-meta {
+        margin: 0;
+    }
+}
+
+.recent-post-header {
+    padding: 10px 0; 
+}
+
+.recent-post-title {
+    color: $color-text;
+    font-size: 1.25em;
+    margin: 0;
+
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+.front-page-widget {
+    margin: 90px 0;
+
+    // General section title styles.
+    .widget-title {
+        border: none;
+        font-size: 1em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+    // Page widget styles.
+    .page-widget-header {
+        text-align: center;
+    }
+
+    .page-widget-title {
+        font-size: 1.953em;
+        margin: .5em 0;
+    }
+
+    .page-widget-content {
+        @media screen and (min-width: 800px) {
+            display: flex;
+
+            & > div {
+                padding: 30px;
+                flex: 1 1 0px;
+                min-width: 0px;
+            }
+
+            &.right-thumbnail .thumbnail-container {
+                order: 1;
+            }
+
+            .one-third {
+                flex: .5 .5 0px;
+            }
+
+            .two-thirds {
+                flex: 2 2 0px;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+
+            .text-left {
+                text-align: left;
+            }
+
+            .text-right {
+                text-align: right;
+            }
+        }
+    }
+
+    // Recent Posts widget styles.
+    .recent-post {
+        align-items: flex-start;
+        display: flex;
+        flex: 1 1 0px;
+        flex-direction: column;
+        padding: 0 20px;
+        max-width: 100%;
+
+        & > * {
+            max-width: 100%;
+        }
+
+        .button {
+            margin-top: auto;
+        }
+    }
+
+    .two-posts {
+        @media screen and (min-width: $tablet){
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .three-posts {
+        @media screen and (min-width: $desktop){
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .four-posts {
+        @media screen and (min-width: $desktop){
+            display: flex;
+            justify-content: space-between;
+            font-size: 80%;
+        }
+
+        @media screen and (min-width: $site-max-width){
+            font-size: 100%;
+        }
+    }
+
+}
+

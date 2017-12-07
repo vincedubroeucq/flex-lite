@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------
+# Layout and Containers
+--------------------------------------------------------------*/
+.page-container,
+.full-width-container,
+.flex-container,
+.flex-navigation,
+.post-header,
+.post-content,
+.comments-area,
+.widget,
+.signup-widget,
+.main-footer {
+  padding: 20px 10px;
+  
+  @media screen and (min-width: $tablet) {
+    padding: 20px;
+  }
+  
+  @media screen and (min-width: $desktop) {
+    padding: 30px;
+  }
+}
+
+.post,
+.page,
+.widget,
+.comments-area,
+.comment-list,
+.flex-navigation {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.page-container {
+  margin: 0 auto;
+  max-width: 640px;
+  
+  @media screen and (min-width: 800px) {
+		max-width: 800px;  
+  }
+}
+
+
+.flex-container {
+  max-width: 640px;
+  margin: 0 auto;
+   
+  @media screen and (min-width: 800px) {
+    display: flex;
+    max-width: 960px;
+	
+		.site-main {
+			margin: 0 2% 0 0;
+			min-width: 0;
+			flex: 1.618 0px;
+		}
+  
+  	.widget-area {
+			margin: 0 0 0 2%;
+			min-width: 0;
+			flex: 1 0px;
+  	}
+  }
+  
+	@media screen and (min-width: $desktop) {
+		max-width: 1280px;
+
+		.site-main {
+			margin: 0 5% 0 0;
+		}
+
+		.widget-area {
+			margin: 0 0 0 5%;
+		}
+	}
+}
+
+.full-width-container {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.flex-navigation {
+	align-items: center;
+	background-color: #fff;
+	border-bottom: 3px solid $color-secondary;
+	border-top: 3px solid $color-secondary;
+	display: flex;
+	justify-content: space-between;
+	
+	a {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		
+		span {
+			margin: 0 5px;
+		}	
+	}
+}
+
+.thumbnail-container {
+	text-align: center;
+}
+
+.thumbnail-container img {
+	border-bottom: 3px solid $color-secondary;
+	border-top: 3px solid $color-secondary;
+  margin-bottom: 1.618em;
+}
+
+.post-type-archive-jetpack-portfolio .post-content,
+.tax-jetpack-portfolio-type .post-content {
+	
+	@media screen and (min-width: 960px){
+		display: flex;
+
+		& > div {
+			padding: 30px;
+			flex: 1 1 0px;
+			min-width: 0px;
+		}
+
+	}
+}
+
+.jetpack-testimonial .post-content {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	.thumbnail-container {
+		flex-shrink: 0;
+		min-width: 0px;
+		img {
+			margin: 0;
+		}
+	}
+
+	.testimonial-content {
+		flex: 1 1 350px;
+		min-width: 0px;
+		padding: 30px;
+	}
+
+}

@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------
+# Social Icons
+--------------------------------------------------------------*/
+.social-icons {
+	margin: 0.67em 0;
+	
+	.icon {
+		fill: currentColor;
+		transition: all .3s;
+	}
+	
+	a {
+		border-bottom: 5px solid transparent;
+		border-top: 5px solid transparent;
+		color: #fff;
+		padding: 5px;
+		transition: all .3s;
+	}
+	
+	a:hover {
+		border-bottom: 5px solid $color-primary;
+	}
+	
+	a:hover > .icon--ei-sc-facebook{
+		fill: #3b5998;
+	}
+	
+	a:hover > .icon--ei-sc-twitter{
+		fill: #55acee;
+	}
+	
+	a:hover > .icon--ei-sc-google-plus {
+ 		 fill: #dd4b39;
+	}
+
+	a:hover > .icon--ei-sc-instagram {
+  		fill: #125688;
+	}
+
+	a:hover > .icon--ei-sc-youtube {
+	  fill: #bb0000;
+	}
+}
+
+#colophon {
+	.social-icons {
+		a {
+			color: $color-text;
+		}	
+	}
+}
+
+

@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------
+# Comments
+--------------------------------------------------------------*/
+.comment-list {
+    padding: 0;
+}
+
+.comments-area ul {
+    list-style: none;
+}
+
+.comments-title {
+    margin: 0;
+}
+
+.comment-body {
+    border-bottom: 3px solid $color-secondary;
+    border-top: 3px solid transparent;
+    padding: 20px;
+}
+
+.comment-meta .avatar {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.comment-meta:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.bypostauthor .comment-body {
+    border-bottom: 5px solid $color-primary;
+}
+
+.comment-metadata {
+    font-size: small;
+}
+
+.comment-navigation {
+    margin-top: 30px;
+}
+
+.comment-reply-title {
+    margin: 0;
+}
+
+.comment-notes {
+    font-size: small;
+}

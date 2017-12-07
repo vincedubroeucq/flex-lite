@@ -1,0 +1,490 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flex Lite\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-12-07 12:56+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Vincent Dubroeucq <vincent@vincentdubroeucq.com>\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_x:1,2c;_ex:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;_nx_noop:4c,1,2;_ngettext_noop:1,2;translate_nooped_plural;esc_html;esc_html__;esc_html_e;esc_html_x:1,2c;esc_attr;esc_attr__;esc_attr_e;esc_attr_x:1,2c;number_format_i18n;date_i18n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .sass-cache\n"
+"X-Poedit-SearchPathExcluded-1: fonts\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+"X-Poedit-SearchPathExcluded-3: node_modules\n"
+"X-Poedit-SearchPathExcluded-4: sass\n"
+
+#: 404.php:18 flex-lite-archive/404.php:18 flex-lite/404.php:18
+msgid "The page you requested couldn't be found."
+msgstr ""
+
+#: 404.php:22 flex-lite-archive/404.php:22 flex-lite/404.php:22
+msgid "Just try typing what you need in the box."
+msgstr ""
+
+#: comments.php:28 flex-lite-archive/comments.php:28 flex-lite/comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:49 flex-lite-archive/comments.php:49 flex-lite/comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:51 flex-lite-archive/comments.php:51 flex-lite/comments.php:51
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:52 flex-lite-archive/comments.php:52 flex-lite/comments.php:52
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:64 flex-lite-archive/comments.php:64 flex-lite/comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: flex-lite-archive/footer.php:23 flex-lite/footer.php:23 footer.php:23
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: flex-lite-archive/footer.php:23 flex-lite/footer.php:23 footer.php:23
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: flex-lite-archive/footer.php:28 flex-lite/footer.php:28 footer.php:28
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: flex-lite-archive/functions.php:53 flex-lite/functions.php:53
+#: functions.php:57
+msgid "Main Menu"
+msgstr ""
+
+#: flex-lite-archive/functions.php:128 flex-lite/functions.php:128
+#: functions.php:132
+msgid "Blog Sidebar"
+msgstr ""
+
+#: flex-lite-archive/functions.php:130 flex-lite/functions.php:130
+#: functions.php:134
+msgid "Place the widgets you want on the sidebar of your blog here. If no widget is set, the blog will display in a single column layout."
+msgstr ""
+
+#: flex-lite-archive/functions.php:138 flex-lite/functions.php:138
+#: functions.php:142
+msgid "After Post Widget"
+msgstr ""
+
+#: flex-lite-archive/functions.php:140 flex-lite/functions.php:140
+#: functions.php:144
+msgid "These widgets will appear on the bottom of single posts just before the comments. The best place for a signup form !"
+msgstr ""
+
+#: flex-lite-archive/functions.php:148 flex-lite/functions.php:148
+#: functions.php:152
+msgid "Front Page Widget"
+msgstr ""
+
+#: flex-lite-archive/functions.php:150 flex-lite/functions.php:150
+#: functions.php:154
+msgid "Use this widget area to build the sections of your widgetized front page template."
+msgstr ""
+
+#: flex-lite-archive/header.php:21 flex-lite/header.php:21 header.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: flex-lite-archive/header.php:68 flex-lite/header.php:68 header.php:69
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: flex-lite-archive/header.php:72 flex-lite/header.php:72 header.php:73
+msgid "Oops ! This is a 404 !"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:27 flex-lite/inc/customizer.php:27
+#: inc/customizer.php:27
+msgid "Header background color"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:35 flex-lite/inc/customizer.php:35
+#: inc/customizer.php:35
+msgid "Social Links"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:36 flex-lite/inc/customizer.php:36
+#: inc/customizer.php:36
+msgid "Enter your social profile URLs here. You'll have a nice icon link in the header and the footer of your site."
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:51 flex-lite/inc/customizer.php:51
+#: inc/customizer.php:51
+msgid "Twitter URL"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:53
+#: flex-lite-archive/inc/customizer.php:70
+#: flex-lite-archive/inc/customizer.php:87
+#: flex-lite-archive/inc/customizer.php:104
+#: flex-lite-archive/inc/customizer.php:121 flex-lite/inc/customizer.php:53
+#: flex-lite/inc/customizer.php:70 flex-lite/inc/customizer.php:87
+#: flex-lite/inc/customizer.php:104 flex-lite/inc/customizer.php:121
+#: inc/customizer.php:53 inc/customizer.php:70 inc/customizer.php:87
+#: inc/customizer.php:104 inc/customizer.php:121
+msgid "http://"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:68 flex-lite/inc/customizer.php:68
+#: inc/customizer.php:68
+msgid "Facebook URL"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:85 flex-lite/inc/customizer.php:85
+#: inc/customizer.php:85
+msgid "Google+ URL"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:102 flex-lite/inc/customizer.php:102
+#: inc/customizer.php:102
+msgid "Youtube URL"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:119 flex-lite/inc/customizer.php:119
+#: inc/customizer.php:119
+msgid "Instagram URL"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:136 flex-lite/inc/customizer.php:136
+#: inc/customizer.php:136
+msgid "Your email"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:138 flex-lite/inc/customizer.php:138
+#: inc/customizer.php:138
+msgid "bob@example.com"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:145 flex-lite/inc/customizer.php:145
+#: inc/customizer.php:145
+msgid "Footer settings"
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:146 flex-lite/inc/customizer.php:146
+#: inc/customizer.php:146
+msgid "Enter your custom footer text here. If left blank, you'll get the default WordPress and theme credits text."
+msgstr ""
+
+#: flex-lite-archive/inc/customizer.php:162 flex-lite/inc/customizer.php:162
+#: inc/customizer.php:162
+msgid "Your custom text"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:10 flex-lite/inc/page-widget.php:10
+#: inc/page-widget.php:10
+msgid "Flex-Lite Page Widget"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:13 flex-lite/inc/page-widget.php:13
+#: inc/page-widget.php:13
+msgid "Feature a page content on your home page or sidebar"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:57 flex-lite/inc/page-widget.php:57
+#: inc/page-widget.php:57
+msgid " "
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:58
+#: flex-lite-archive/inc/page-widget.php:60
+#: flex-lite-archive/template-parts/content.php:15
+#: flex-lite/inc/page-widget.php:58 flex-lite/inc/page-widget.php:60
+#: flex-lite/template-parts/content.php:15 inc/page-widget.php:58
+#: inc/page-widget.php:60 template-parts/content.php:15
+msgid "Read more"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:96
+#: flex-lite-archive/inc/recent-posts-widget.php:113
+#: flex-lite/inc/page-widget.php:96 flex-lite/inc/recent-posts-widget.php:113
+#: inc/page-widget.php:96 inc/recent-posts-widget.php:113
+msgid "Title:"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:100 flex-lite/inc/page-widget.php:100
+#: inc/page-widget.php:100
+msgid "Choose a page :"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:105 flex-lite/inc/page-widget.php:105
+#: inc/page-widget.php:105
+msgid "Choose a page"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:112 flex-lite/inc/page-widget.php:112
+#: inc/page-widget.php:112
+msgid " - ID = "
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:120 flex-lite/inc/page-widget.php:120
+#: inc/page-widget.php:120
+msgid "Thumbnail : "
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:121 flex-lite/inc/page-widget.php:121
+#: inc/page-widget.php:121
+msgid "No thumbnail"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:122 flex-lite/inc/page-widget.php:122
+#: inc/page-widget.php:122
+msgid "Left thumbnail"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:123 flex-lite/inc/page-widget.php:123
+#: inc/page-widget.php:123
+msgid "Right thumbnail"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:126 flex-lite/inc/page-widget.php:126
+#: inc/page-widget.php:126
+msgid "Content size : "
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:127 flex-lite/inc/page-widget.php:127
+#: inc/page-widget.php:127
+msgid "One third"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:128 flex-lite/inc/page-widget.php:128
+#: inc/page-widget.php:128
+msgid "One half"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:129 flex-lite/inc/page-widget.php:129
+#: inc/page-widget.php:129
+msgid "Two thirds"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:132 flex-lite/inc/page-widget.php:132
+#: inc/page-widget.php:132
+msgid "Text style : "
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:133 flex-lite/inc/page-widget.php:133
+#: inc/page-widget.php:133
+msgid "Centered"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:134 flex-lite/inc/page-widget.php:134
+#: inc/page-widget.php:134
+msgid "Left aligned"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:135 flex-lite/inc/page-widget.php:135
+#: inc/page-widget.php:135
+msgid "Right aligned"
+msgstr ""
+
+#: flex-lite-archive/inc/page-widget.php:141 flex-lite/inc/page-widget.php:141
+#: inc/page-widget.php:141
+msgid "Display 'Read More' button ? : "
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:10
+#: flex-lite/inc/recent-posts-widget.php:10 inc/recent-posts-widget.php:10
+msgid "Flex-Lite Recent Posts Widget"
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:13
+#: flex-lite/inc/recent-posts-widget.php:13 inc/recent-posts-widget.php:13
+msgid "Displays some of your most recent posts in your sidebar or other widgetized area."
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:79
+#: flex-lite/inc/recent-posts-widget.php:79 inc/recent-posts-widget.php:79
+msgid "Read-more"
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:117
+#: flex-lite/inc/recent-posts-widget.php:117 inc/recent-posts-widget.php:117
+msgid "Number of posts to display : "
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:118
+#: flex-lite/inc/recent-posts-widget.php:118 inc/recent-posts-widget.php:118
+msgid "2"
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:119
+#: flex-lite/inc/recent-posts-widget.php:119 inc/recent-posts-widget.php:119
+msgid "3"
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:120
+#: flex-lite/inc/recent-posts-widget.php:120 inc/recent-posts-widget.php:120
+msgid "4"
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:125
+#: flex-lite/inc/recent-posts-widget.php:125 inc/recent-posts-widget.php:125
+msgid "Display Meta Information ?"
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:131
+#: flex-lite/inc/recent-posts-widget.php:131 inc/recent-posts-widget.php:131
+msgid "Display Thumbnail ?"
+msgstr ""
+
+#: flex-lite-archive/inc/recent-posts-widget.php:137
+#: flex-lite/inc/recent-posts-widget.php:137 inc/recent-posts-widget.php:137
+msgid "Display Excerpt ?"
+msgstr ""
+
+#: flex-lite-archive/inc/template-tags.php:8 flex-lite/inc/template-tags.php:8
+#: inc/template-tags.php:8
+#, php-format
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#: flex-lite-archive/inc/template-tags.php:15
+#: flex-lite/inc/template-tags.php:15 inc/template-tags.php:15
+#, php-format
+msgctxt "post date"
+msgid " on %s"
+msgstr ""
+
+#: flex-lite-archive/inc/template-tags.php:20
+#: flex-lite/inc/template-tags.php:20 inc/template-tags.php:20
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: flex-lite-archive/inc/template-tags.php:21
+#: flex-lite-archive/inc/template-tags.php:47
+#: flex-lite/inc/template-tags.php:21 flex-lite/inc/template-tags.php:47
+#: inc/template-tags.php:21 inc/template-tags.php:61
+msgid ", "
+msgstr ""
+
+#: flex-lite-archive/inc/template-tags.php:26
+#: flex-lite/inc/template-tags.php:26 inc/template-tags.php:26
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: flex-lite-archive/inc/template-tags.php:41
+#: flex-lite/inc/template-tags.php:41 inc/template-tags.php:55
+#, php-format
+msgctxt "post date"
+msgid "On %s"
+msgstr ""
+
+#: flex-lite-archive/inc/template-tags.php:46
+#: flex-lite/inc/template-tags.php:46 inc/template-tags.php:60
+#, php-format
+msgid ", in %1$s"
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-excerpt.php:10
+#: flex-lite-archive/template-parts/content-singular.php:6
+#: flex-lite-archive/template-parts/content.php:17
+#: flex-lite/template-parts/content-excerpt.php:10
+#: flex-lite/template-parts/content-singular.php:6
+#: flex-lite/template-parts/content.php:17
+#: template-parts/content-excerpt.php:10 template-parts/content-singular.php:6
+#: template-parts/content.php:17
+msgid "Pages:"
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-excerpt.php:12
+#: flex-lite-archive/template-parts/content-singular.php:8
+#: flex-lite-archive/template-parts/content.php:19
+#: flex-lite/template-parts/content-excerpt.php:12
+#: flex-lite/template-parts/content-singular.php:8
+#: flex-lite/template-parts/content.php:19
+#: template-parts/content-excerpt.php:12 template-parts/content-singular.php:8
+#: template-parts/content.php:19
+msgid "Next page"
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-excerpt.php:13
+#: flex-lite-archive/template-parts/content-singular.php:9
+#: flex-lite-archive/template-parts/content.php:20
+#: flex-lite/template-parts/content-excerpt.php:13
+#: flex-lite/template-parts/content-singular.php:9
+#: flex-lite/template-parts/content.php:20
+#: template-parts/content-excerpt.php:13 template-parts/content-singular.php:9
+#: template-parts/content.php:20
+msgid "Previous page"
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-navigation.php:4
+#: flex-lite/template-parts/content-navigation.php:4
+#: template-parts/content-navigation.php:4
+msgid "Previous Post"
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-navigation.php:5
+#: flex-lite/template-parts/content-navigation.php:5
+#: template-parts/content-navigation.php:5
+msgid "Next Post"
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-navigation.php:11
+#: flex-lite/template-parts/content-navigation.php:11
+#: template-parts/content-navigation.php:11
+msgid "Older Posts"
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-navigation.php:12
+#: flex-lite/template-parts/content-navigation.php:12
+#: template-parts/content-navigation.php:12
+msgid "Newer Posts"
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-none.php:3
+#: flex-lite/template-parts/content-none.php:3
+#: template-parts/content-none.php:3
+msgid "Nothing Found !"
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-none.php:9
+#: flex-lite/template-parts/content-none.php:9
+#: template-parts/content-none.php:9
+msgid "Just try something else."
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-none.php:16
+#: flex-lite/template-parts/content-none.php:16
+#: template-parts/content-none.php:16
+msgid "Looks like you still have to publish something."
+msgstr ""
+
+#: flex-lite-archive/template-parts/content-singular.php:11
+#: flex-lite-archive/template-parts/content.php:22
+#: flex-lite/template-parts/content-singular.php:11
+#: flex-lite/template-parts/content.php:22
+#: template-parts/content-singular.php:11 template-parts/content.php:22
+msgid "Edit"
+msgstr ""
+
+#: functions.php:210
+#, php-format
+msgid "All %s"
+msgstr ""

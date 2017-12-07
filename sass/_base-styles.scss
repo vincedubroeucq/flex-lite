@@ -1,0 +1,250 @@
+/*--------------------------------------------------------------
+# Base Styles
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background-color: $color-background;
+}
+
+hr {
+	background-color: $color-secondary;
+	border: none;
+	height: 3px;
+	margin: 1.618em 0;
+}
+
+img {
+	max-width: 100%; 
+	height: auto;
+}
+
+a {
+	color: $color-primary-lighter;
+	text-decoration: none;
+	transition: all .3s;
+
+
+	&:visited {
+		color: $color-primary-darker;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color-primary;
+		text-decoration: underline;
+	}
+}
+
+thead {
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid $color-secondary;
+}
+
+tfoot {
+	border-top: 3px solid $color-secondary;
+	border-bottom: 3px solid transparent;
+	font-weight: bold;
+}
+
+td {
+	padding: 10px;
+}
+
+tr:nth-child(even){
+	background-color: darken($color-background, 10%);
+}
+
+
+
+/*  Forms
+************/
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	border: none;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid $color-primary-lighter;
+	color: lighten($color-text, 20%);
+	display: block;
+	margin: .3em 0;	
+	padding: 5px;
+	transition: border .3s;
+
+	&:focus,
+	&:hover {
+		border-bottom: 5px solid $color-primary;
+		color: $color-text;
+	}
+}
+
+textarea {
+	width: 100%;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background-color: $color-primary-lighter;
+	border: none;
+	color: #fff;
+	display: block;
+	padding: 5px 10px;
+	margin: .3em 0;	
+	text-shadow: 1px 1px 1px $color-text;
+	transition: all .3s;
+
+	&:hover,
+	&:active,
+	&:focus{
+		background: $color-primary;
+	}
+}
+
+.button,
+a.button {
+	border: none;
+	background-color: $color-primary-lighter;
+	color: #fff;
+	display: inline-block;
+	margin: .3em 0;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px $color-text;
+	transition: all .3s;
+		
+	&:hover,
+	&:active,
+	&:focus,
+	&:visited {
+		background-color: $color-primary;
+		color: #fff;
+	}
+	
+	 
+}
+
+.big-button,
+a.big-button {
+	@extend .button;
+	padding: 10px 20px; 
+}
+
+
+
+/*	Typography
+****************/
+html {
+	font-size: 1em;
+}
+
+body {
+  	background-color: white;
+	color: $color-text;
+	font-family: $font-text;
+	font-size: 0.9em;
+  	font-weight: 400;
+  	line-height: 1.6;
+	
+	@media screen and (min-width: $tablet){
+		font-size: 1em;
+	}	
+	
+	@media screen and (min-width: $desktop){
+		font-size: 1.125em;
+	}	
+}
+
+p,
+ul,
+ol {
+	margin: 0 0 1.618em;
+}
+
+h1, h2, h3, h4 {
+	font-family: $font-heading;
+  	font-weight: 400;
+  	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2.441em;
+}
+
+h2 {
+	font-size: 1.953em;
+}
+
+h3 {
+	font-size: 1.563em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+small, .font_small {
+	font-size: 0.8em;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	border-left: 5px solid $color-primary;
+	margin: 1em;
+	padding-left: 20px;
+}
+
+blockquote cite{
+	display: block;
+	text-align: right;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background-color: darken($color-background, 10%);
+	border-left: 5px solid $color-secondary;
+	display: block;
+	font-family: $font-pre;
+	font-size: 0.8em;
+	max-width: 100%;
+	margin-bottom: 1.618em;
+	overflow: auto;
+	padding: 20px;
+}
+
+code, kbd, tt, var {
+	font-family: $font-code;
+}
+
+abbr, acronym {
+	border-bottom: 1px solid $color-text;
+	cursor: help;
+}
+
+mark, ins {
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+

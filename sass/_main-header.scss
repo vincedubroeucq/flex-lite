@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+# Main Header
+--------------------------------------------------------------*/
+.main-header{
+	background-color: $color-primary;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 3px solid $color-secondary;
+	border-top: 3px solid $color-secondary;
+	color: #fff; 
+	margin-bottom: 30px;
+	padding: 0;
+	text-align: center;
+  	text-shadow: 1px 1px 1px $color-text;
+	
+	@media screen and (min-width: $big-phone){	
+		padding: 25px 0;
+	}
+		
+	@media screen and (min-width: $tablet){	
+		padding: 75px 0;
+	}
+		
+	@media screen and (min-width: $desktop){	
+		padding: 100px 0;
+	}
+}
+
+

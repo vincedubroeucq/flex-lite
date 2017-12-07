@@ -1,0 +1,12 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.main-footer {
+	text-align: center;
+	
+	@media screen and (min-width: $tablet){
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}

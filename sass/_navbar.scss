@@ -1,0 +1,164 @@
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+.navbar {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: $font-heading;
+	justify-content: space-between;
+	line-height: 1;
+	padding: $padding-phone;
+	position: relative;
+	
+	a {
+		color: $color-text;
+		display: inline-block;
+		text-decoration: none;
+	}
+	
+	.site-title {
+		font-size: 1.5rem;
+		margin: 0;
+	}
+	
+	.site-description {
+		display: none;
+	}
+
+	.custom-logo {
+		max-height: 40px;
+		line-height: 1;
+		width: auto;
+	}
+		
+	// Position the menu button
+	.menu-toggle {
+		cursor: pointer;
+		line-height: 0;
+	}
+	
+	// Style the main-menu	
+	ul {
+		font-size: 1.125rem;
+		list-style: none;
+		padding-left: 20px;
+		margin: 0;
+		
+		li a {
+			border-bottom: 5px solid transparent;
+			border-top: 5px solid transparent;
+			padding: 5px;
+			transition: all .3s;
+		}
+		
+		li a:hover {
+			border-bottom: 5px solid $color-primary;
+		}
+		
+		ul {
+			margin: 0;
+			padding-left: 20px;
+		}
+	}
+	
+	// Hide the checkbox input
+	#menu-trigger {
+		display: none;
+	}
+	
+	// Hide the main menu by default
+	.main-menu {
+		flex-basis: 100%;
+		margin-top: 0;		// So that it doesn't move the HR
+		max-height: 0;
+		opacity: 0;
+		overflow: hidden;
+		transition: all .5s;
+	}
+	
+	// Have the menu appear when label is clicked
+	#menu-trigger:checked + .main-menu {
+		margin-top: 10px;
+		max-height: 1500px;
+		opacity: 1;
+		transition: all .5s;
+	}
+}
+
+@media screen and (min-width: $tablet){	
+	.navbar {
+		padding: $padding-phone $padding-tablet;
+		line-height: 1.5;
+		
+		.menu-toggle {
+			display: none;
+		}
+
+		li {
+			margin-right: 1em;
+			display: inline-block;
+
+			li {
+				display: block;
+			}
+		}
+
+		.site-title {
+			font-size: 2rem;
+		}
+		
+		.main-menu,
+		div.main-menu ul {
+			flex-basis: auto;
+			font-size: 1.125rem;
+			margin: 0;
+			max-height: 100%;
+			min-width: 0; 
+			opacity: 1;
+			padding: 0;
+			
+			.sub-menu,
+			li .children {
+    			background-color: #fff;
+				max-height: 0;
+				opacity: 0;
+				overflow: hidden;
+				padding: 10px;
+				position: absolute;
+				transition: all .5s;
+				visibility: hidden;
+			}
+			
+			li.menu-item-has-children:hover > ul.sub-menu,
+			li.page_item_has_children:hover > ul.children {
+				max-height: 1500px;
+				opacity: 1;
+				overflow: visible;
+				visibility: visible;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $desktop){
+	.navbar {
+		padding: $padding-desktop;
+		
+		.site-description{
+			display: block;
+			font-size: 1.25rem;
+			margin: 0;
+		}
+		
+		.main-menu{
+			font-size: 1.25rem;
+		}
+		
+		.dropdown {
+			font-size: 1rem;
+		}
+	}
+}
+
+
