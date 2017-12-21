@@ -4,7 +4,7 @@ Author: Vincent Dubroeucq
 Author URI: http://vincentdubroeucq.com
 Theme URI:  http://vincentdubroeucq.com/themes/flex 
 Description: A simple and clean responsive theme for your blog.
-Version: 1.5
+Version: 1.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: flex-lite
@@ -1057,12 +1057,14 @@ object {
 
 @media screen and (min-width: 960px) {
   .post-type-archive-jetpack-portfolio .post-content,
-  .tax-jetpack-portfolio-type .post-content {
+  .tax-jetpack-portfolio-type .post-content,
+  .tax-jetpack-portfolio-tag .post-content {
     display: -ms-flexbox;
     display: flex;
   }
   .post-type-archive-jetpack-portfolio .post-content > div,
-  .tax-jetpack-portfolio-type .post-content > div {
+  .tax-jetpack-portfolio-type .post-content > div,
+  .tax-jetpack-portfolio-tag .post-content > div {
     padding: 30px;
     -ms-flex: 1 1 0px;
     flex: 1 1 0px;

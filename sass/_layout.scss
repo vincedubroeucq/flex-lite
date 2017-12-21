@@ -111,7 +111,8 @@
 }
 
 .post-type-archive-jetpack-portfolio .post-content,
-.tax-jetpack-portfolio-type .post-content {
+.tax-jetpack-portfolio-type .post-content,
+.tax-jetpack-portfolio-tag .post-content {
 	
 	@media screen and (min-width: 960px){
 		display: flex;

@@ -29,7 +29,10 @@ The Customizer features two new sections:
  - Social Icons section : Just add your social media profiles in there to display a nice icon in the main header and the footer linking to your profiles.
  - Footer Section : customize the text appearing in the footer.
 
-Warning: The main menu is limited to a depth of 2. That means you can have dropdowns one level deep, not two.
+The theme also supports JetPack's testimonial and project custom content types. If JetPack is active, you can safely activate these content types, and they'll display fine on the front end. 
+
+** Warning: ** The main menu is limited to a depth of 2. That means you can have dropdowns one level deep, not two.
+
 
 == Installation ==
 	
@@ -39,8 +42,12 @@ Warning: The main menu is limited to a depth of 2. That means you can have dropd
 
 == Changelog ==
 
+= 1.6 - December 2017  =
+* Extended support for JetPack portfolio and testimonial custom content types.
+* Fixed French translation issue.
+
 = 1.5 - December 2017  =
-* Added support for JetPack portfolio and testimonial sutom content types.
+* Added support for JetPack portfolio and testimonial custom content types.
 * Fixed meta information for post translation issue.
 
 = 1.4.2 - July 2017  =

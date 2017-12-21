@@ -5,14 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flex Lite\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2017-12-07 12:56+0100\n"
+"POT-Creation-Date: 2017-12-21 23:58+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Vincent Dubroeucq <vincent@vincentdubroeucq.com>\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_x:1,2c;_ex:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;_nx_noop:4c,1,2;_ngettext_noop:1,2;translate_nooped_plural;esc_html;esc_html__;esc_html_e;esc_html_x:1,2c;esc_attr;esc_attr__;esc_attr_e;esc_attr_x:1,2c;number_format_i18n;date_i18n\n"
 "X-Poedit-Basepath: ..\n"
@@ -69,37 +69,37 @@ msgstr ""
 msgid "Theme: %1$s by %2$s."
 msgstr ""
 
-#: flex-lite-archive/functions.php:53 flex-lite/functions.php:53
+#: flex-lite-archive/functions.php:53 flex-lite/functions.php:57
 #: functions.php:57
 msgid "Main Menu"
 msgstr ""
 
-#: flex-lite-archive/functions.php:128 flex-lite/functions.php:128
+#: flex-lite-archive/functions.php:128 flex-lite/functions.php:132
 #: functions.php:132
 msgid "Blog Sidebar"
 msgstr ""
 
-#: flex-lite-archive/functions.php:130 flex-lite/functions.php:130
+#: flex-lite-archive/functions.php:130 flex-lite/functions.php:134
 #: functions.php:134
 msgid "Place the widgets you want on the sidebar of your blog here. If no widget is set, the blog will display in a single column layout."
 msgstr ""
 
-#: flex-lite-archive/functions.php:138 flex-lite/functions.php:138
+#: flex-lite-archive/functions.php:138 flex-lite/functions.php:142
 #: functions.php:142
 msgid "After Post Widget"
 msgstr ""
 
-#: flex-lite-archive/functions.php:140 flex-lite/functions.php:140
+#: flex-lite-archive/functions.php:140 flex-lite/functions.php:144
 #: functions.php:144
 msgid "These widgets will appear on the bottom of single posts just before the comments. The best place for a signup form !"
 msgstr ""
 
-#: flex-lite-archive/functions.php:148 flex-lite/functions.php:148
+#: flex-lite-archive/functions.php:148 flex-lite/functions.php:152
 #: functions.php:152
 msgid "Front Page Widget"
 msgstr ""
 
-#: flex-lite-archive/functions.php:150 flex-lite/functions.php:150
+#: flex-lite-archive/functions.php:150 flex-lite/functions.php:154
 #: functions.php:154
 msgid "Use this widget area to build the sections of your widgetized front page template."
 msgstr ""
@@ -108,12 +108,12 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: flex-lite-archive/header.php:68 flex-lite/header.php:68 header.php:69
+#: flex-lite-archive/header.php:68 flex-lite/header.php:69 header.php:69
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: flex-lite-archive/header.php:72 flex-lite/header.php:72 header.php:73
+#: flex-lite-archive/header.php:72 flex-lite/header.php:73 header.php:73
 msgid "Oops ! This is a 404 !"
 msgstr ""
 
@@ -377,7 +377,7 @@ msgstr ""
 
 #: flex-lite-archive/inc/template-tags.php:21
 #: flex-lite-archive/inc/template-tags.php:47
-#: flex-lite/inc/template-tags.php:21 flex-lite/inc/template-tags.php:47
+#: flex-lite/inc/template-tags.php:21 flex-lite/inc/template-tags.php:61
 #: inc/template-tags.php:21 inc/template-tags.php:61
 msgid ", "
 msgstr ""
@@ -389,14 +389,14 @@ msgid "Tags: %1$s"
 msgstr ""
 
 #: flex-lite-archive/inc/template-tags.php:41
-#: flex-lite/inc/template-tags.php:41 inc/template-tags.php:55
+#: flex-lite/inc/template-tags.php:55 inc/template-tags.php:55
 #, php-format
 msgctxt "post date"
 msgid "On %s"
 msgstr ""
 
 #: flex-lite-archive/inc/template-tags.php:46
-#: flex-lite/inc/template-tags.php:46 inc/template-tags.php:60
+#: flex-lite/inc/template-tags.php:60 inc/template-tags.php:60
 #, php-format
 msgid ", in %1$s"
 msgstr ""
@@ -484,7 +484,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: functions.php:210
+#: flex-lite/functions.php:210 functions.php:210
 #, php-format
 msgid "All %s"
 msgstr ""
