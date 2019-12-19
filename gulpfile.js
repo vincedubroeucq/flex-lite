@@ -32,7 +32,7 @@ gulp.task('prefixCSS', ['compileSass'], function () {
 
 // Task to clean old CSS files and theme folder.
 gulp.task('clean', function(){
-    return del(['style.css', 'flex-lite']);
+    return del(['style.css', 'flex-lite', 'flex-lite-archive']);
 });
 
 

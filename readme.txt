@@ -42,6 +42,9 @@ The theme also supports JetPack's testimonial and project custom content types. 
 
 == Changelog ==
 
+= 1.6.1 - December 2018  =
+* Tested with WordPress 5.0.1
+
 = 1.6 - December 2017  =
 * Extended support for JetPack portfolio and testimonial custom content types.
 * Fixed French translation issue.
